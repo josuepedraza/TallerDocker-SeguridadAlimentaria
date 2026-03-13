@@ -1,0 +1,13 @@
+services:
+  jupyter-spark:
+    build: .
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - ./:/home/jovyan/work
+    working_dir: /home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=
+    command: start-notebook.py --NotebookApp.token=''

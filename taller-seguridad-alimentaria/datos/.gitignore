@@ -1,0 +1,5 @@
+*.sav
+*.dta
+datos_dane
+venv
+*.pdf
