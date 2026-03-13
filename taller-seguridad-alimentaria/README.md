@@ -21,7 +21,7 @@ El proyecto se ejecuta dentro de un **entorno reproducible utilizando Docker**, 
 
 ```bash
 git clone https://github.com/josuepedraza/TallerDocker-SeguridadAlimentaria.git
-cd TallerDocker-SeguridadAlimentaria
+cd taller-seguridad-alimentaria
 ```
 
 ## 2. Descargar los datos
